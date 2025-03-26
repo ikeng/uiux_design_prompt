@@ -1,0 +1,161 @@
+{
+  "app": {
+    "title": "UI/UX Design Prompt Generator",
+    "description": "Create professional UI/UX design prompts for various platforms and applications"
+  },
+  "navigation": {
+    "home": "Home",
+    "generator": "Generator",
+    "templates": "Templates",
+    "about": "About"
+  },
+  "generator": {
+    "title": "Design Prompt Generator",
+    "subtitle": "Generate a comprehensive UI/UX design prompt",
+    "platform": {
+      "label": "Platform",
+      "placeholder": "Select platform",
+      "options": {
+        "ios": "iOS",
+        "android": "Android",
+        "web": "Web",
+        "crossPlatform": "Cross-platform",
+        "macos": "macOS",
+        "windows": "Windows"
+      }
+    },
+    "appType": {
+      "label": "Application Type",
+      "placeholder": "Select application type",
+      "options": {
+        "fitness": "Fitness",
+        "ecommerce": "E-commerce",
+        "social": "Social",
+        "education": "Education",
+        "finance": "Finance",
+        "travel": "Travel",
+        "music": "Music",
+        "video": "Video",
+        "news": "News",
+        "productivity": "Productivity",
+        "healthcare": "Healthcare",
+        "game": "Game"
+      }
+    },
+    "designStyle": {
+      "label": "Design Style",
+      "placeholder": "Select design style",
+      "options": {
+        "glassmorphism": "Glassmorphism",
+        "neumorphism": "Neumorphism",
+        "flat": "Flat Design",
+        "skeuomorphism": "Skeuomorphism",
+        "minimalism": "Minimalism",
+        "materialDesign": "Material Design",
+        "appleDesign": "Apple Design",
+        "futurism": "Futurism",
+        "retro": "Retro Style",
+        "3d": "3D Design"
+      }
+    },
+    "frontendTech": {
+      "label": "Frontend Technology",
+      "placeholder": "Select frontend technology",
+      "options": {
+        "vanillaJS": "Vanilla JavaScript, CSS and HTML",
+        "react": "React/React Native",
+        "vue": "Vue.js",
+        "angular": "Angular",
+        "flutter": "Flutter",
+        "swiftUI": "Swift UI",
+        "jetpackCompose": "Jetpack Compose",
+        "bootstrap": "Bootstrap",
+        "tailwind": "Tailwind CSS"
+      }
+    },
+    "iconLibrary": {
+      "label": "Icon Library",
+      "placeholder": "Select icon library",
+      "options": {
+        "fontAwesome": "Font Awesome 6.0.0",
+        "materialIcons": "Material Icons",
+        "featherIcons": "Feather Icons",
+        "phosphorIcons": "Phosphor Icons",
+        "ionicons": "Ionicons",
+        "sfSymbols": "SF Symbols",
+        "bootstrapIcons": "Bootstrap Icons",
+        "heroicons": "Heroicons"
+      }
+    },
+    "fontLibrary": {
+      "label": "Font Library",
+      "placeholder": "Select font library",
+      "options": {
+        "fontSquirrel": "Font Squirrel",
+        "googleFonts": "Google Fonts",
+        "adobeFonts": "Adobe Fonts",
+        "sfPro": "SF Pro (System Font)",
+        "roboto": "Roboto",
+        "inter": "Inter",
+        "montserrat": "Montserrat",
+        "poppins": "Poppins"
+      }
+    },
+    "themeMode": {
+      "label": "Theme Mode",
+      "placeholder": "Select theme mode",
+      "options": {
+        "dark": "Dark Mode",
+        "light": "Light Mode",
+        "auto": "Auto/System Mode",
+        "highContrast": "High Contrast Mode",
+        "custom": "Custom Theme"
+      }
+    },
+    "layoutType": {
+      "label": "Layout Type",
+      "placeholder": "Select layout type",
+      "options": {
+        "responsive": "Responsive Design",
+        "adaptive": "Adaptive Design",
+        "fluid": "Fluid Layout",
+        "grid": "Grid Layout",
+        "fixed": "Fixed Width Layout"
+      }
+    },
+    "generateButton": "Generate Prompt",
+    "copyButton": "Copy to Clipboard",
+    "saveButton": "Save as Template",
+    "resetButton": "Reset Form"
+  },
+  "result": {
+    "title": "Generated Prompt",
+    "copySuccess": "Copied to clipboard!",
+    "saveSuccess": "Saved as template!",
+    "templateName": "Template Name",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "templates": {
+    "title": "Saved Templates",
+    "empty": "No saved templates yet",
+    "delete": "Delete",
+    "edit": "Edit",
+    "use": "Use Template"
+  },
+  "about": {
+    "title": "About This Tool",
+    "description": "This tool helps designers and developers create comprehensive UI/UX design prompts for various platforms and application types.",
+    "features": "Features",
+    "featuresList": {
+      "item1": "Internationalization support (English and Chinese)",
+      "item2": "Modern design with light and dark themes",
+      "item3": "Comprehensive design prompt generation",
+      "item4": "Save and reuse templates",
+      "item5": "Copy prompts directly to clipboard"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 UI/UX Design Prompt Generator. All rights reserved."
+  }
+} 

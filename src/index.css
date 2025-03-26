@@ -1,0 +1,138 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* 基础字体设置 */
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+    /* 浅色模式色彩变量 */
+    --background: 255, 255, 255;  /* 纯白 */
+    --background-secondary: 249, 250, 251;  /* 淡灰白 */
+    --foreground: 31, 41, 55;  /* 深灰 */
+    --muted: 107, 114, 128;  /* 中灰 */
+    --muted-foreground: 107, 114, 128;  /* 中灰 */
+    --primary: 37, 99, 235;  /* 蓝色 */
+    --primary-foreground: 255, 255, 255;  /* 白色 */
+    --secondary: 229, 231, 235;  /* 淡灰 */
+    --secondary-foreground: 31, 41, 55;  /* 深灰 */
+    --accent: 243, 244, 246;  /* 更淡的灰 */
+    --accent-foreground: 31, 41, 55;  /* 深灰 */
+    --border: 229, 231, 235;  /* 边框灰 */
+    --input: 229, 231, 235;  /* 输入框边框 */
+    --card: 255, 255, 255;  /* 卡片背景 */
+    --card-foreground: 31, 41, 55;  /* 卡片文字 */
+    
+    color-scheme: light;
+    color: rgb(var(--foreground));
+    background-color: rgb(var(--background));
+  }
+
+  .dark {
+    /* 深色模式色彩变量 */
+    --background: 15, 15, 15;  /* 更深的黑色 */
+    --background-secondary: 25, 25, 25;  /* 更深的灰黑 */
+    --foreground: 255, 255, 255;  /* 白色 */
+    --muted: 115, 115, 115;  /* 中灰 */
+    --muted-foreground: 196, 196, 196;  /* 浅灰，提高对比度 */
+    --primary: 59, 130, 246;  /* 亮蓝 */
+    --primary-foreground: 255, 255, 255;  /* 白色 */
+    --secondary: 38, 38, 38;  /* 深灰 */
+    --secondary-foreground: 250, 250, 250;  /* 浅白，提高对比度 */
+    --accent: 42, 42, 42;  /* 深灰黑 */
+    --accent-foreground: 250, 250, 250;  /* 浅白，提高对比度 */
+    --border: 86, 86, 86;  /* 深灰，提高对比度 */
+    --input: 86, 86, 86;  /* 输入框边框，提高对比度 */
+    --card: 35, 35, 35;  /* 更深的卡片背景 */
+    --card-foreground: 240, 240, 240;  /* 更亮的卡片文字，提高对比度 */
+    
+    color-scheme: dark;
+    color: rgb(var(--foreground));
+    background-color: rgb(var(--background));
+  }
+  
+  body {
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+  }
+
+  html, body, #root {
+    background-color: rgb(var(--background));
+    color: rgb(var(--foreground));
+  }
+
+  /* 确保浅色模式正确应用 */
+  html:not(.dark) .bg-white {
+    background-color: #ffffff;
+  }
+
+  html:not(.dark) .text-gray-800 {
+    color: #1f2937;
+  }
+
+  /* 确保深色模式背景色正确 */
+  .dark .bg-white {
+    background-color: #232323;
+  }
+
+  .dark .bg-gray-800 {
+    background-color: #1c1c1c;
+  }
+  
+  .dark .bg-gray-700 {
+    background-color: #2a2a2a;
+  }
+
+  .dark .bg-gray-50 {
+    background-color: #2a2a2a;
+  }
+  
+  /* 提高对比度 */
+  .dark .text-white {
+    color: #ffffff;
+  }
+  
+  .dark .text-gray-200 {
+    color: #e5e7eb;
+  }
+  
+  .dark .text-gray-300 {
+    color: #d1d5db;
+  }
+  
+  /* 多选控件样式修复 */
+  .dark input[type="checkbox"] {
+    border-color: rgba(156, 163, 175, 0.7);
+    background-color: transparent;
+  }
+  
+  .dark input[type="checkbox"]:checked {
+    background-color: rgb(59, 130, 246);
+    border-color: rgb(59, 130, 246);
+  }
+  
+  /* 修复选项的选中状态对比度 */
+  .dark .bg-blue-50 {
+    background-color: rgba(59, 130, 246, 0.1);
+  }
+  
+  .dark .bg-blue-900\/30 {
+    background-color: rgba(30, 58, 138, 0.2);
+  }
+  
+  /* 多选组件选中项文字样式 */
+  .dark .bg-blue-900\/30 span {
+    color: rgba(255, 255, 255, 0.95);
+  }
+  
+  /* 确保符合WCAG AA级对比度标准的文本对比度 */
+  html {
+    color: rgb(var(--foreground));
+  }
+}

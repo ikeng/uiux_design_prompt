@@ -1,0 +1,161 @@
+{
+  "app": {
+    "title": "UI/UX设计提示词生成器",
+    "description": "为各种平台和应用创建专业的UI/UX设计提示词"
+  },
+  "navigation": {
+    "home": "首页",
+    "generator": "生成器",
+    "templates": "模板",
+    "about": "关于"
+  },
+  "generator": {
+    "title": "设计提示词生成器",
+    "subtitle": "生成全面的UI/UX设计提示词",
+    "platform": {
+      "label": "平台",
+      "placeholder": "选择平台",
+      "options": {
+        "ios": "iOS",
+        "android": "安卓",
+        "web": "网页",
+        "crossPlatform": "跨平台",
+        "macos": "macOS",
+        "windows": "Windows"
+      }
+    },
+    "appType": {
+      "label": "应用类型",
+      "placeholder": "选择应用类型",
+      "options": {
+        "fitness": "健身",
+        "ecommerce": "电商",
+        "social": "社交",
+        "education": "教育",
+        "finance": "金融",
+        "travel": "旅游",
+        "music": "音乐",
+        "video": "视频",
+        "news": "新闻",
+        "productivity": "生产力",
+        "healthcare": "医疗健康",
+        "game": "游戏"
+      }
+    },
+    "designStyle": {
+      "label": "设计风格",
+      "placeholder": "选择设计风格",
+      "options": {
+        "glassmorphism": "玻璃态设计",
+        "neumorphism": "新拟物设计",
+        "flat": "扁平化设计",
+        "skeuomorphism": "拟物化设计",
+        "minimalism": "极简主义",
+        "materialDesign": "材料设计(Material Design)",
+        "appleDesign": "苹果设计语言",
+        "futurism": "未来主义",
+        "retro": "复古风格",
+        "3d": "3D设计"
+      }
+    },
+    "frontendTech": {
+      "label": "前端技术",
+      "placeholder": "选择前端技术",
+      "options": {
+        "vanillaJS": "原生JavaScript、CSS和HTML",
+        "react": "React/React Native",
+        "vue": "Vue.js",
+        "angular": "Angular",
+        "flutter": "Flutter",
+        "swiftUI": "Swift UI",
+        "jetpackCompose": "Jetpack Compose",
+        "bootstrap": "Bootstrap",
+        "tailwind": "Tailwind CSS"
+      }
+    },
+    "iconLibrary": {
+      "label": "图标库",
+      "placeholder": "选择图标库",
+      "options": {
+        "fontAwesome": "Font Awesome 6.0.0",
+        "materialIcons": "Material Icons",
+        "featherIcons": "Feather Icons",
+        "phosphorIcons": "Phosphor Icons",
+        "ionicons": "Ionicons",
+        "sfSymbols": "SF Symbols",
+        "bootstrapIcons": "Bootstrap Icons",
+        "heroicons": "Heroicons"
+      }
+    },
+    "fontLibrary": {
+      "label": "字体库",
+      "placeholder": "选择字体库",
+      "options": {
+        "fontSquirrel": "Font Squirrel",
+        "googleFonts": "Google Fonts",
+        "adobeFonts": "Adobe Fonts",
+        "sfPro": "SF Pro (系统字体)",
+        "roboto": "Roboto",
+        "inter": "Inter",
+        "montserrat": "Montserrat",
+        "poppins": "Poppins"
+      }
+    },
+    "themeMode": {
+      "label": "主题模式",
+      "placeholder": "选择主题模式",
+      "options": {
+        "dark": "深色模式",
+        "light": "浅色模式",
+        "auto": "自动/系统跟随模式",
+        "highContrast": "高对比度模式",
+        "custom": "自定义主题"
+      }
+    },
+    "layoutType": {
+      "label": "布局类型",
+      "placeholder": "选择布局类型",
+      "options": {
+        "responsive": "响应式设计",
+        "adaptive": "自适应设计",
+        "fluid": "流动布局",
+        "grid": "网格布局",
+        "fixed": "固定宽度布局"
+      }
+    },
+    "generateButton": "生成提示词",
+    "copyButton": "复制到剪贴板",
+    "saveButton": "保存为模板",
+    "resetButton": "重置表单"
+  },
+  "result": {
+    "title": "生成的提示词",
+    "copySuccess": "已复制到剪贴板！",
+    "saveSuccess": "已保存为模板！",
+    "templateName": "模板名称",
+    "cancel": "取消",
+    "save": "保存"
+  },
+  "templates": {
+    "title": "已保存的模板",
+    "empty": "还没有保存的模板",
+    "delete": "删除",
+    "edit": "编辑",
+    "use": "使用模板"
+  },
+  "about": {
+    "title": "关于此工具",
+    "description": "此工具帮助设计师和开发人员为各种平台和应用类型创建全面的UI/UX设计提示词。",
+    "features": "功能特点",
+    "featuresList": {
+      "item1": "国际化支持（英文和中文）",
+      "item2": "现代设计，支持浅色和深色主题",
+      "item3": "全面的设计提示词生成",
+      "item4": "保存和重用模板",
+      "item5": "直接复制提示词到剪贴板"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 UI/UX设计提示词生成器。保留所有权利。"
+  }
+} 
